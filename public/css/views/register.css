@@ -1,0 +1,56 @@
+main .register{
+    width: 800px;
+    height: 340px;
+    background: #666;
+
+}
+.register1{
+    text-decoration: none;
+    margin: 0 auto;
+width: 40%;
+}
+main h3{
+    margin-bottom: 30px;
+}
+main .control{
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.register h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+main .buyerorseller{
+    font-size: 15px;
+    max-width: 300%;
+}
+main .intereses{
+    font-size: 15px;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+}
+main .venti{
+    width: 100%;
+}
+
+.boton{
+    color: #FFF;
+    background:  #1259c3;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}

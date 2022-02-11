@@ -1,0 +1,52 @@
+/*FOOTER*/
+footer{
+    margin: 0 auto;
+    padding: 40px 10px 20px;
+    display: flex;
+    color: var(--gris-oscuro);
+    background-color: #FFF;
+    flex-direction: column;
+    transition: color 0.3s ease;
+}
+.contenido-footer h4 {     
+    padding: 8px;    
+}  
+.contenido-footer {     
+    text-align: center;     
+    padding: 30px; 
+}  
+.contenido-footer i {     
+    color: var(--Celeste);     
+    font-size: 3em;     
+    margin: 0 0 10px 0; 
+}  
+.contenido-footer h4 {     
+    font-size: 18px;     
+    margin: 0 0 5px 0; 
+}  
+.contenido-footer p {     
+    font-size: 14px;     
+    font-weight: 100;     
+    color:#666; 
+}  
+.copyrigth {     
+    font-size: var(--text);     
+    background: #FFF;
+    margin-bottom: 30px;
+}
+.contenido-footer i:hover{
+    transition: color 0.3s ease;
+    color: var(--Azul);
+}
+
+@media screen and (min-width: 769px){
+footer{
+flex-direction: row;
+}
+.contenido-footer i{     
+    width: 100%;
+}  
+.copyright {     
+    width: 10%;     
+}
+}

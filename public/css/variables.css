@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+/*COLORES*/
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a;
+/*FONT FAMILY*/
+--roboto: 'Roboto', sans-serif;
+/*FONTO SIZE*/
+--text: 12px;
+--title: 24px;
+--text-lg: 18px;
+--text-md: 16px;
+}
+.boton{
+    transition: background-color 0.5s ease;
+}
+.boton:hover{
+background-color: #03264C;
+}
+.botonlogin{
+    transition: background-color 0.5s ease;
+}
+.botonlogin:hover{
+background-color: #03264C;
+}
